@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="store-title">Galactic Games</h1>
+    <div class="search-filter">
+        <input type="text" id="searchInput" placeholder="Buscar productos...">
+        <select id="categoryFilter">
+            <option value="">Todas las categorías</option>
+            <!-- Aquí puedes agregar opciones de categorías dinámicamente si las tienes -->
+        </select>
+        <button id="searchButton">Buscar</button>
+    </div>
+    <div id="app">
+        <div class="menu">
+            
+            <div id="shopping-cart-container" class="hide"></div>
+        </div>
+        <div id="store-container"></div>
+    </div>
+
+    
+
+
+    <script src="main.js"></script>
+</body>
+</html>
